@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.select {
+    position: relative;
+    width: 191px;
+    text-align: center;
+    height: 48px;
+    border: 1px solid #C4C4C4;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+
+.select .form-select {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    border: none;
+    padding: 12px 48px 12px 48px;
+}
+
+.form-select .flag {
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
+}
+
+.form-select .arrow {
+    position: absolute;
+    right: 19px;
+    bottom: 20px;
+}
+
+.countries {
+    display: none;
+    border: 1px solid #C4C4C4;
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+.countries div {
+    position: relative;
+    text-align: left;
+    height: 46px;
+    width: 189px;
+    cursor: pointer;
+    padding: 12px 40px 12px 48px;
+}
+
+.countries div img {
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
+}
+
+.results__filter {
+    width: 165px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    color: #71757A;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+.results__filter .arrow {
+    width: 16px;
+    height: 16px;
+}
+
+.filter {
+    /* display: none; */
+    display: block;
+}
+
+.filter div {
+    margin-top: 5px;
+    width: 165px;
+    height: 30px;
+    padding: 6px 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #9DA3AC;
+}
